@@ -1,0 +1,38 @@
+{% extends 'quiz/adminbase.html' %}
+{% load widget_tweaks %}
+{% block content %}
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <style>
+    <meta name="viewport" content="width=device-width, initial-scale=1"><link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"><script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script><script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>a:link {
+      text-decoration: none;
+    }
+
+    .form-control{
+      width: 0px;
+      height: 0px;
+    }
+  </style>
+</head>
+<!-- <h3 style="text-align:center">Fill Salary Of Teacher</h3> -->
+<form method="POST" autocomplete="off" style="margin:100px;margin-top: 0px;">
+  {%csrf_token%}
+  <div class="form-group">
+    <h1 class="salary">Do you want to Approve</h1>
+    <button type="submit" class="btn btn-primary">Approve</button>
+    
+    <br><br><br>
+    <br><br><br>
+    <br><br><br>
+    {% render_field teacherSalary.salary class="form-control" value="5000" %}
+  </div>
+
+
+
+</form>
+<br><br>
+{% endblock content %}

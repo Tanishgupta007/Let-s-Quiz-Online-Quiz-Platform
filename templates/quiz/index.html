@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en" dir="ltr">
+
+<style>
+  section#section-jumbotron.jumbotron.jumbotron-fluid.d-flex.justify-content-center.align-items-center {
+    z-index: 1;
+    position: relative;
+    /* background-image: url('{% static "image/back.jpg" %}'); */
+    background-color: rgb(181, 228, 255);
+    padding-bottom: 180px;
+  }
+
+  h1.display-1 {
+
+    color: black;
+    margin-top: 50px;
+  }
+
+  .jumbotron {
+    margin-bottom: 0px;
+  }
+
+  .btn btn-lg btn-info {
+    margin-top: 30px;
+  }
+</style>
+
+<body>
+  {% include "quiz/navbar.html" %}
+  <br>
+  <section id="section-jumbotron" class="jumbotron jumbotron-fluid d-flex justify-content-center align-items-center">
+    <div class="container text-center">
+      <h1 class="display-1">Let's Quiz</h1>
+      <a href="/student/studentclick" class="btn btn-lg btn-info"
+        style="padding-right: 35px; margin-top:100px;margin-left: 50px;"><i class="fa fa-user-plus"
+          aria-hidden="true"></i>Student</a>
+      <a href="/teacher/teacherclick" class="btn btn-lg btn-info"
+        style="padding-right: 35px;margin-top:100px;margin-left: 50px; "><i class="fa fa-user-plus"
+          aria-hidden="true"></i>Teacher</a>
+
+    </div>
+  </section>
+  {% include "quiz/footer.html" %}
+
+
+</body>
+
+</html>
