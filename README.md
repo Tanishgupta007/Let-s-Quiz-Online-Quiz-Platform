@@ -1,4 +1,14 @@
-# Online Quiz Web Application
+<h1>Let's Quiz: Online Quiz Web Application</h1>
+<hr><h2>Technologies Used</h2>
+<hr><ul>
+<li>HTML</li>
+</ul><ul>
+<li>CSS</li>
+</ul><ul>
+<li>JavaScript</li>
+</ul><ul>
+<li>Django</li>
+</ul>
 
 This project introduces an online quiz application designed to accommodate multiple user roles, enhancing the user experience for administrators, instructors, and participants. Administrators can efficiently manage the system through an intuitive dashboard, where they can create, edit, and delete quizzes with ease. The application supports real-time access to quizzes for participants, who can view instructions and submit responses seamlessly. The implementation of distinct user roles ensures a tailored experience for each user category, fostering efficient quiz administration and participation. This project contributes to the realm of online education and assessment by providing a versatile platform that facilitates interactive and dynamic quizzing experiences for diverse user roles.
 
