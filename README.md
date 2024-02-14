@@ -8,29 +8,29 @@ This repository houses the source code for our online quiz application, a robust
 
 # Key Features
 ## For Administrators
-Intuitive Dashboard: Manage the system efficiently through a feature-rich and easy-to-use dashboard.
-Quiz Management: Create, edit, and delete quizzes seamlessly to ensure content stays current and relevant.
-User Management: Add, modify, or remove user accounts, including administrators, instructors, and participants.
-Analytics: Gain insights into quiz performance, user engagement, and other essential metrics.
+* Intuitive Dashboard: Manage the system efficiently through a feature-rich and easy-to-use dashboard.
+* Quiz Management: Create, edit, and delete quizzes seamlessly to ensure content stays current and relevant.
+* User Management: Add, modify, or remove user accounts, including administrators, instructors, and participants.
+* Analytics: Gain insights into quiz performance, user engagement, and other essential metrics.
 ## For Instructors
-Quiz Creation: Easily create quizzes with a variety of question types to cater to different learning objectives.
-Editing Capabilities: Modify quiz content and settings to adapt to changing requirements.
-Assignment: Assign quizzes to specific participants or groups for targeted assessment.
+* Quiz Creation: Easily create quizzes with a variety of question types to cater to different learning objectives.
+* Editing Capabilities: Modify quiz content and settings to adapt to changing requirements.
+* Assignment: Assign quizzes to specific participants or groups for targeted assessment.
 ## For Participants
-Access to Quizzes: Conveniently access quizzes assigned to participants.
-Clear Instructions: Receive clear and concise instructions for each quiz to facilitate smooth participation.
-Submission: Submit responses to quiz questions with ease.
-Feedback: Obtain timely and constructive feedback on quiz results and performance.
+* Access to Quizzes: Conveniently access quizzes assigned to participants.
+* Clear Instructions: Receive clear and concise instructions for each quiz to facilitate smooth participation.
+* Submission: Submit responses to quiz questions with ease.
+* Feedback: Obtain timely and constructive feedback on quiz results and performance.
 ## General Features
-#User Authentication: Implement a secure login system to protect user accounts and data.
-Responsive Design: Ensure accessibility across various devices, including desktops, tablets, and smartphones.
-Notification System: Keep users informed about upcoming quizzes, deadlines, and system updates.
-Scoring and Grading: Automate the scoring process and provide comprehensive results.
+* User Authentication: Implement a secure login system to protect user accounts and data.
+* Responsive Design: Ensure accessibility across various devices, including desktops, tablets, and smartphones.
+* Notification System: Keep users informed about upcoming quizzes, deadlines, and system updates.
+* Scoring and Grading: Automate the scoring process and provide comprehensive results.
 ## Additional Enhancements
-Interactive User Interface: Prioritize a user-friendly interface to enhance navigation and user experience.
-Real-time Updates: Offer real-time information on quiz availability, submission status, and results.
-Discussion Forums: Foster collaboration by providing a platform for participants to discuss quiz-related topics.
-Customization: Allow administrators and instructors to customize the appearance and settings of the application.
+* Interactive User Interface: Prioritize a user-friendly interface to enhance navigation and user experience.
+* Real-time Updates: Offer real-time information on quiz availability, submission status, and results.
+* Discussion Forums: Foster collaboration by providing a platform for participants to discuss quiz-related topics.
+* Customization: Allow administrators and instructors to customize the appearance and settings of the application.
 
 
 ![quiz1](https://github.com/Tanishgupta007/Let-s-Quiz-Online-Quiz-Platform/assets/75359038/b2b256c2-80c6-4855-8064-561453225af8)
